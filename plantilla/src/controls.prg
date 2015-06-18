@@ -43,7 +43,6 @@ begin
 				salir_android();
 			end
 
-
 			if (key(_left))
 				LEFT_PRESSED = 1;
 				else
@@ -68,9 +67,8 @@ begin
 				DOWN_PRESSED = 0;
 			end
 			
-
 		   
-				/* TOUCHSCREEN CONTROL FOR PLAYER 1*/
+			/* TOUCHSCREEN CONTROL FOR PLAYER 1*/
 				
 				
 			if (touch_state == 0) // Si il n'y a aucune pression
