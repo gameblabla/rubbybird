@@ -1,0 +1,17 @@
+Instructions here are for Windows.
+Haven't switch to Linux yet.
+
+You need the utils folder from pixplantilla.
+Download pixplantilla here : http://www.pixjuegos.com/descargas/pixplantilla.rar
+
+Put everything here in a new folder called "pixplantilla".
+Move it to C:/
+
+Install the Android SDK (Not Android Studio) : https://developer.android.com/sdk/index.html
+Install API 16 and the sdk tools.
+
+For the key, take a look at pixplantilla/bennugd-android/build.properties
+Modify the file accordingly. (Change the key's alias to yours and change the key store directory)
+
+Once everything is set up, simply compile the game with exportar-android.bat
+If everything went well, you should end up with a new APK in pixplantilla->temp
